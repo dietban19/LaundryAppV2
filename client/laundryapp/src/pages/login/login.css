@@ -1,0 +1,23 @@
+.loginWrapper {
+  background-color: var(--clr-dark-900);
+
+  height: 100%;
+}
+
+.loginContainer {
+  margin: 1rem;
+  background-color: var(--clr-dark-800);
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1.5rem 3rem;
+}
+
+.formInput {
+}
+.btn-primary {
+  width: 100%;
+}
