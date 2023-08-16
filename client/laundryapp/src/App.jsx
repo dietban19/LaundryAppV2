@@ -13,7 +13,7 @@ axios.defaults.baseURL = "http://localhost:4000";
 axios.defaults.withCredentials = true;
 function App() {
   const [userData, setUserData] = useState(() => {
-    // Load user data from local storage, or return null if not found
+
     const storedUserData = localStorage.getItem("userData");
     return storedUserData ? JSON.parse(storedUserData) : null;
   });

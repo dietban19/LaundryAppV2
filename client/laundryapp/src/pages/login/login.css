@@ -5,10 +5,9 @@
 }
 
 .loginContainer {
-  margin: 1rem;
+  margin: 1.1rem;
   background-color: var(--clr-dark-800);
   height: 90%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
